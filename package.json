@@ -1,0 +1,27 @@
+{
+  "name": "rollup-vue-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "rollup -c rollup.config.js --watch & node serve.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "@rollup/plugin-typescript": "^4.1.1",
+    "@vue/compiler-sfc": "^3.0.0-beta.9",
+    "live-server": "^1.2.1",
+    "rollup": "^2.8.0",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-scss": "^2.4.0",
+    "rollup-plugin-vue": "^6.0.0-alpha.8"
+  }
+}
